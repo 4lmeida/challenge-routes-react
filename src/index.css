@@ -36,3 +36,7 @@ main {
     max-width: 960px;
     margin: 0 auto;
 }
+
+.pdl20 {
+    padding: 0 20px;
+}

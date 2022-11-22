@@ -2,6 +2,7 @@ header {
     background-color: var(--drr-color-bg-secundary);
     height: 70px;
     display: flex;
+    padding: 0 20px;
 }
 
 nav {
