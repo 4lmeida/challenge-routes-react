@@ -13,11 +13,11 @@ nav {
 
 .drr-navlink {
     display: flex;
-    
-}
-
-.drr-navlink p {
     margin-right: 20px;
     color: var(--drr-color-font-primary);
     font-size: 16px;
+}
+ 
+.menu-active {
+    font-weight: 700;
 }

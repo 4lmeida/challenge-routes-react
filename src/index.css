@@ -27,6 +27,10 @@ a, a:hover {
     color: unset;
 }
 
+main {
+    margin-top: 20px;
+}
+
 .container {
     width: 100%;
     max-width: 960px;

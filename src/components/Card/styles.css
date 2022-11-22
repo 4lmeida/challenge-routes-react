@@ -1,0 +1,13 @@
+.card-container {
+    width: 100%;
+    max-width: 960px;
+    height: 60px;
+    background-color: var(--drr-color-bg-tertiary);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.card-container p {
+    margin-left: 20px;
+}
