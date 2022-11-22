@@ -2,11 +2,11 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
 import Home from "./routes/Home"
 import About from "./routes/Home/About"
 import HomeBody from "./routes/Home/HomeBody"
+import NotFound from "./routes/Home/NotFound"
 import Products from "./routes/Home/Products"
 import Books from "./routes/Home/Products/Books"
 import Computers from "./routes/Home/Products/Computers"
 import Eletronics from "./routes/Home/Products/Eletronics"
-
 
 function App() {
 
@@ -22,8 +22,8 @@ function App() {
           <Route path="books" element={<Books />} />
         </Route>
         <Route path="about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
-      <Route path="*" element={<Navigate to="/home" />} />
     </Routes>
     </BrowserRouter>
   )
